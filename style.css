@@ -1,0 +1,20 @@
+body {
+    background: #9b2a2a;
+    background: -webkit-linear-gradient(180deg, rgba(155, 42, 42, 1) 0%, rgba(237, 150, 9, 1) 77%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(155, 42, 42, 1) 0%, rgba(237, 150, 9, 1) 77%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(155, 42, 42, 1) 0%, rgba(237, 150, 9, 1) 77%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9B2A2A", endColorstr="#000000", GradientType=0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.redirecina {
+    background-color: rgb(102, 57, 57);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(0, 0, 0);
+}
+
+.redirecina:hover {
+    transition: 0.3s;
+    background-color: rgb(156, 35, 35);
+    outline: none;
+}
